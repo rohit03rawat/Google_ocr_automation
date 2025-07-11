@@ -1,0 +1,488 @@
+
+--- Page 1 ---
+[This question paper contains 12 printed pages.]
+Your Roll No.
+Sr. No. of Question Paper: 3143
+Unique Paper Code
+: 32347607
+Name of the Paper
+Name of the Course
+Semester
+Duration 3 Hours
+H
+: Machine Learning
+: B.Sc. (H) Computer Science
+ADMISSIONS OF 2019,
+2020 & 2021
+: VI
+Maximum Marks: 75
+Instructions for Candidates
+1.
+Write your Roll No. on the top immediately on receipt
+of this question paper.
+2. Section A is compulsory.
+3.
+Attempt any 4 questions from Section B.
+4.
+Use of scientific calculator is allowed.
+कालिन्दी महाविद्यालय
+पुस्तकाल. P.T.O.
+KALINDI COLLEGE LIBRARY
+
+
+--- Page 2 ---
+3143
+1.
+2
+Section A
+(Compulsory)
+(a) Consider a scenario where 6000 patients are tested
+for Covid positive. Out of which 5000 are actually
+Covid negative and 1000 are actually Covid
+positive. For covid positive patients the test
+however gave positive indication for 700 only and
+for covid negative patients, the test gave positive
+indication for 200 patients. Construct a confusion
+matrix for above scenario and find the values of
+True Positive Rate (TPR), False Positive Rato
+(FPR), Specificity, Sensitivity metrics.
+(b) Answer the following:
+(5)
+(5)
+(i) What is the impact of small dataset with
+respect to large number of features?
+(ii) For the given values theta_0=0.2,
+theta_1=0.1, and theta_2=0.1; predict
+values of dependent variable y for all
+कालिन्दी महाविद्यालय पुस्तकालय
+KALINDI COLLEGE LIBRARY
+
+
+--- Page 3 ---
+3143
+3
+instances of independent variables x1
+and x2 as given in following data table
+using linear regression. Also predict mean
+squared error.
+232
+x1
+x2
+y
+2
+3
+4
+5
+8
+9
+1
+1.5
+(c) Cluster the following set of data objects in two
+clusters by applying one iteration of k-means
+algorithm. Treat objects 2 and 5 as initial cluster
+centres. Use Euclidean distance as the distance
+metric. Determine updated cluster centre
+coordinates.
+Y-coordinate
+Object
+X-coordinate
+Number
+1
+2
+4
+2345
+4
+6
+6
+8
+10
+4
+12
+4
+(5)
+कालिन्दी महाविद्यालय
+पुस्तकालय
+P.T.O.
+KALINDI COLLEGE LIBRARY
+
+
+--- Page 4 ---
+3143
+4
+(d) Differentiate between linear regression and
+polynomial regression. Derive the gradient descent
+algorithm to find the unknown parameters in
+multivariate linear regression.
+(5)
+(e) How PCA (Principal Component Analysis)
+algorithm helps in dimension reduction in machine
+learning? Write the steps of PCA algorithm.
+(5)
+(f) What is regularization? Write equations of cost
+function for regularized linear and regularized
+logistic regression. What will be the effect on
+model when the regularization parameter is set to
+zero?
+(5)
+(g) Consider the following dataset with 8 training
+instances. Use k-NN algorithm (for k=3) to
+determine the 'Result' status for a new test
+instance with values CGPA = 7.6, Assessment = 60
+and Project Points = 7.
+(5)
+कालिन्दी महाविद्यालय पुस्तकालय
+KALINDI COLLEGE LIBRARY
+
+
+--- Page 5 ---
+3143
+5
+S.No.
+CGPA
+Assessment
+Project Points
+Result
+1
+Pass
+9.2
+85
+8
+2
+Pass
+8
+80
+7
+3
+Pass
+8.5
+81
+8
+4
+Fail
+6
+45
+5
+S
+Fail
+6.5
+50
+4
+6
+8.2
+72
+7
+Pass
+7
+5.8
+38
+5
+Fail
+100
+8
+8.9
+91
+9
+Pass
+Section B
+-
+2. (a) Consider two features in a dataset and their
+possible values as shown below:
+(4)
+• Income: values (medium, low, high, very high)
+• Status: values (SO, AO, Clerk).
+Answer the following questions :
+(i) Using Cartesian product on above feature
+set, construct a new feature and generate
+its possible values list.
+कालिन्दी महाविद्यालय पुस्तकालय
+KALINDI COLLEGE LIBRARY
+P.T.O.
+
+
+--- Page 6 ---
+3143
+6
+(ii) State one advantage and one disadvantage
+of above approach for feature construction.
+(b) For the given set of points, identify clusters using
+complete linkage in agglomerative clustering. Use
+Euclidean distance to calculate the distance
+between two points.
+(6)
+Points ✗ coordinate Y coordinate
+P1
+1
+1
+P2
+1.5
+1.5
+P3
+5
+5
+P4
+3
+4
+3. (a) Consider the following two dimensional space with
+some data points such that circle points represent
+positive class points and triangular points represent
+negative class points separated by a decision
+boundary as shown.
+(5)
+कालिन्दी महाविद्यालय पुस्तकाल
+KALINDI COLLEGE LIBRARY
+し
+
+
+--- Page 7 ---
+3143
+4.5
+3.5
+7
+(1.5, 3)
+3
+(5,9)
+2.5
+(2,3)
+* (3,2.5)
+2
+(2,2)
+1.5
+0.5
+(3.5,1.5)
+2
+3
+5
+9
+Answer the following questions:
+(i) Identify support vectors, (with respect to
+SVM classifier applied on above data)
+(ii) Draw marginal planes, (with respect to
+SVM classifier applied on above data)
+(iii) Define Marginal Distance in SVM
+algorithm.
+(b) Construct neural network for a two input NOR
+gate using truth table. Show diagram for your
+generated neural network model with weights.
+कालिन्दी महाविद्यालय पुस्तकालय
+(5)
+KALINDI COLLEGE LIBRARY P.T.O.
+
+
+--- Page 8 ---
+3143
+4.
+8
+(a) Apply Naive Bayesian Classifier to Predict
+whether a car is stolen or not with features
+{Color:RED, Origin: Domestic, Typer: SUV} based
+on given dataset.
+(5)
+Color
+Type
+Origin
+Stolen
+RED
+SPORTS
+DOMESTIC
+YES
+RED
+SPORTS
+DOMESTIC
+NO
+RED
+SPORTS
+DOMESTIC
+YES
+YELLOW
+SPORTS
+YELLOW
+SPORTS
+DOMESTIC NO
+IMPORTED YES
+YELLOW
+SUV
+IMPORTED NO
+YELLOW
+SUV
+IMPORTED YES
+YELLOW
+SUV
+RED
+SUV
+RED
+SPORTS
+DOMESTIC
+NO
+IMPORTED NO
+IMPORTED YES
+(b) Differentiate between hold out method, leave one
+out method and k-fold method for cross-validation.
+Which of the above methods has low bias and
+high variance. Justify.
+कालिन्दी महाविद्यालय पुस्तकालय
+KALINDI COLLEGE LIBRARY
+(5)
+
+
+--- Page 9 ---
+3143
+5.
+9
+(a) Using the data given below, build a logistic
+regression model to predict whether a student is
+pass or fail based on exam score using gradient
+descent algorithm. Assume initial values for model
+parameters (thetas) as 0 and learning rate as 0.3.
+Use one iterations of gradient descent algorithm
+to update the model parameters.
+(6)
+Exam Score (x)
+Pass/Fail (y)
+50
+0
+55
+0
+60
+0
+65
+1
+70
+1
+75
+1
+80
+1
+85
+1
+90
+1
+95
+1
+(b) Using least squares method, learn the regression
+coefficients for the data given below. Also predict
+the value of y for x=12 using your learned
+coefficients.
+कालिन्दी महाविद्यालय पुस्तकाल
+KALINDI COLLEGE LIBRARY
+(4)
+P.T.O.
+
+
+--- Page 10 ---
+3143
+6. (a)
+X1
+X2
+10
+✗
+Y
+2
+21
+4
+27
+6
+29
+8
+64
+10
+86
+w1=0.1
+hl
+w4=0.4
+y2
+w2=0.2
+w3=0.3
+w2=0.2
+w3=0.3
+h2
+y2
+W4=0.4
+w4=0.4
+For given input values of x1 and x2 as 0.3 and 0.5
+respectively, determine the values of output nodes
+yl and y2. Use bias bl=0.5 and b2=0.5. Use
+sigmoid as the activation function for hidden as
+well as output layer.
+कालिन्दा महाविद्यालय पुस्तकाल
+KALINDI COLLEGE LIBRARY
+(7)
+
+
+--- Page 11 ---
+3143
+11
+(b) Explain the effect of following factors in achieving
+model convergence with respect to gradient
+descent algorithm.
+• Learning rate is too small.
+•
+Learning rate is too large.
+(3)
+7.
+(a) Consider following training data for 5 persons. For
+binary classification of a person as sick or not
+sick create a decision tree model. Show all the
+steps.
+Person
+A1
+A2
+A3
+Class
+No
+1
+Yes
+Yes
+Yes
+Not Sick
+2
+Yes
+No
+Yes
+Sick
+3
+No
+No
+Yes
+Sick
+4
+No
+Yes
+Yes
+Not Sick
+5
+No
+Yes
+No
+Sick
+(8)
+(b) Consider the expected and predicted outcomes of
+a machine learning classifier on a data set
+containing. 7 observations. Calculate the
+कालिन्दा महाविद्यालय पुस्पा नय
+KALINDI COLLEGE LIBRARY
+P.T.O.
+
+
+--- Page 12 ---
+3143
+12
+performance of the classifier using Jaccard Index
+metric.
+(2)
+Y expected
+Y predicted 1
+0 0
+0
+0
+1
+1
+1
+0
+0
+1
+0
+0
+कालिन्दी महाविद्यालय पुस्तकालर.
+KALINDI COLLEGE LIBRARY
+(2500)
+
